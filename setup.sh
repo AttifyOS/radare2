@@ -28,9 +28,9 @@ check_env() {
 }
 
 install() {
-  wget https://github.com/radareorg/radare2/releases/download/5.7.6/radare2-5.7.6-static.tar.xz -O $APM_TMP_DIR/radare2-5.7.6-static.tar.xz
-  tar xf $APM_TMP_DIR/radare2-5.7.6-static.tar.xz -C $APM_PKG_INSTALL_DIR/
-  rm $APM_TMP_DIR/radare2-5.7.6-static.tar.xz
+  wget https://github.com/radareorg/radare2/releases/download/5.7.8/radare2-5.7.8-static.tar.xz -O $APM_TMP_DIR/radare2-5.7.8-static.tar.xz
+  tar xf $APM_TMP_DIR/radare2-5.7.8-static.tar.xz -C $APM_PKG_INSTALL_DIR/
+  rm $APM_TMP_DIR/radare2-5.7.8-static.tar.xz
 
   ln -s $APM_PKG_INSTALL_DIR/r2-static/usr/bin/r2 $APM_PKG_BIN_DIR/r2
   ln -s $APM_PKG_INSTALL_DIR/r2-static/usr/bin/r2p $APM_PKG_BIN_DIR/r2p
